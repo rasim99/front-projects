@@ -3,3 +3,83 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+ animation-name: body;
+ animation-duration: 9s;
+ animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    background-color: red;
+    animation-name: anime;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+@keyframes anime{
+    0%{
+        background-color:black;
+           transform: rotate(25deg);
+    }
+    50%{
+        background-color:green;
+
+          left: 330px;
+          top: 0px;
+          transform: rotate(250deg);
+
+    }
+    65%{
+        background-color:tan;
+
+        left: 50%;
+        top: 48%;
+        transform: rotate(369deg);
+        animation-delay: 10s;
+    }
+    75%{
+        left: 88%;top: 79%;
+        transform: rotate(250deg);
+        
+        background-color:whitesmoke;
+
+    }
+    80%{
+        left:888px; top: 555px;
+        background-color:midnightblue;
+
+    }
+    100%{
+        left: 0;
+        top: 0;
+        background-color:navajowhite;
+
+    }
+}
+
+
+
+@keyframes body{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: darkblue;
+    }
+    50%{
+        background-color: khaki;
+    }
+    75%{
+        background-color: violet;
+
+    } 100%{
+        background-color: crimson;
+    }
+}
