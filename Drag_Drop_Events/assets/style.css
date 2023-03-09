@@ -1,0 +1,16 @@
+.dragbox{
+    width: 111px;
+    height: 111px;
+    background-color: blueviolet;
+    position: relative;
+    left: 0;
+    top: 144px;
+}
+.area{
+    width: 444px;
+    height: 444px;
+    border: 11px solid black;
+    position: relative;
+    left: 444px;
+    top: 44px;
+}
